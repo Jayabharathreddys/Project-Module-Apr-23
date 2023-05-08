@@ -1,5 +1,9 @@
 package com.jaya.rest;
 
+import okhttp3.OkHttpClient;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
+
 public class RestClient {
     JSONPlaceholderAPI api;
 
