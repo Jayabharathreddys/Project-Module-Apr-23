@@ -4,10 +4,11 @@ import java.util.*;
 
 public class MergeNumbers2 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args1) {
         try {
             List<Integer> numbers = new ArrayList<>();
-
+            //String[] args = {"C:\\scaler\\in1.txt","C:\\scaler\\in2.txt"};
+            String[] args = {"InputFiles/in1.txt","InputFiles/in2.txt"};
             // Open input files for reading on separate threads
             List<Thread> readerThreads = new ArrayList<>();
             for (String arg : args) {
@@ -32,11 +33,16 @@ public class MergeNumbers2 {
                 readerThread.join();
             }
 
+            numbers.forEach((n)-> System.out.println(n));
+
+            System.out.println("After sorting-->");
             // Sort the numbers
             Collections.sort(numbers);
 
+            numbers.forEach((n)-> System.out.println(n));
+            String outFile = "OutputFiles/out.txt";
             // Open output file for writing on a separate thread
-            BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\scaler\\out.txt"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(outFile));
             Thread writerThread = new Thread(() -> {
                 try {
                     for (int number : numbers) {
