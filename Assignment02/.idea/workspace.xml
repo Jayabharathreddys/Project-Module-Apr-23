@@ -5,9 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61c14dad-1901-4d7d-93df-0afdf494bc2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../blogapi/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/blog.db.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/blog.db.trace.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/docs/2023-05-18.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/docs/di-excalidraw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/docs/jwt-hash-signature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/docs/pw-hash-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/docs/pw-hash-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/BlogapiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/articles/ArticleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/articles/ArticlesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/articles/ArticlesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/articles/ArticlesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/comments/CommentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/comments/CommentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/comments/CommentsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/comments/CommentsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/common/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/common/ErrorResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/security/JWTTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/security/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/tokens/UserTokenEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/tokens/UserTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/tokens/UserTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/dto/CreateUserRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/dto/LoginUserRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/dto/UserResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/test/java/com/scaler/blogapi/BlogapiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/test/java/com/scaler/blogapi/security/JWTTokenServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/test/java/com/scaler/blogapi/users/UsersRepositoryTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaya/rest/PhotoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaya/rest/TestDownload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jaya/rest/PhotoDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jaya/rest/PhotoDownloader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +120,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/scaler/Project-Module-Apr-23/Assignment02",
+    "last_opened_file_path": "C:/scaler/Project-Module-Apr-23/blogapi",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -152,7 +193,7 @@
       <workItem from="1683938917574" duration="1366000" />
       <workItem from="1684152352639" duration="7505000" />
       <workItem from="1684328576040" duration="2911000" />
-      <workItem from="1684342476517" duration="4497000" />
+      <workItem from="1684342476517" duration="5310000" />
     </task>
     <servers />
   </component>
