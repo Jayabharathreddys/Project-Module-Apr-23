@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="894c9081-da8e-4916-a6ee-696b31cf76d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/dto/UserUpdateDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogapi/blog.db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../blogapi/blog.db.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogapi/blog.db.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/../blogapi/blog.db.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogapi/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../blogapi/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UsersService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Q1S74RPlBpfcSjGldvlgVHJBjF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/scaler/Project-Module-Apr-23/java-basics2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="894c9081-da8e-4916-a6ee-696b31cf76d2" name="Changes" comment="" />
+      <created>1684519423543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684519423543</updated>
+      <workItem from="1684519424580" duration="80000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

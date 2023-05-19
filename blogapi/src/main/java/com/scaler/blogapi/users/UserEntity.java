@@ -11,6 +11,7 @@ import lombok.*;
 import java.util.List;
 
 @Getter
+@Setter
 @ToString
 @Entity(name = "users")
 @Builder

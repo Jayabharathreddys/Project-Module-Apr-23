@@ -18,6 +18,7 @@ public class SecurityConfig {
                 .requestMatchers(HttpMethod.POST, "/users/login", "/users/signup").permitAll()
                 .requestMatchers("/h2-console/**").permitAll()
                 .anyRequest().permitAll();
+        http.headers().disable();
         return http.build();
     }
 }

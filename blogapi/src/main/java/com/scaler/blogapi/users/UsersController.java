@@ -4,10 +4,14 @@ import com.scaler.blogapi.security.TokenService;
 import com.scaler.blogapi.users.dto.CreateUserRequestDTO;
 import com.scaler.blogapi.users.dto.LoginUserRequestDTO;
 import com.scaler.blogapi.users.dto.UserResponseDTO;
+import com.scaler.blogapi.users.dto.UserUpdateDTO;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/users")
@@ -51,13 +55,25 @@ public class UsersController {
     }
 
     @PatchMapping("/{id}")
-    ResponseEntity<UserResponseDTO> updateUser() {
+    public ResponseEntity<UserResponseDTO> updateUser(@PathVariable UUID id,
+                                                      @RequestBody UserUpdateDTO userUpdateDTO,
+                                                      @RequestHeader("Authorization") String token) {
         // TODO 04:
-        //  1. create a UserUpdateDTO (containing email, password, bio)
-        //  2. call usersService.updateUser() with those details
-        //  3. check that client sends a token which validates this user
-        //  4. respond with 202 ACCEPTED if user is updated successfully
-        return null;
+        //  1. Create a UserUpdateDTO (containing email, password, bio)
+        //     You can define the UserUpdateDTO class with the required fields.
+
+        String userName = tokenService.getUsernameFromToken(token);
+
+        //  3. Check that the client sends a token which validates this user
+        if (userName == null) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
+        }
+
+        //  2. Call usersService.updateUser() with those details
+        var updatedUser = usersService.updateUser(id, userUpdateDTO, token);
+
+        //  4. Respond with 202 ACCEPTED if the user is updated successfully
+        return ResponseEntity.accepted().body(updatedUser);
     }
 
 }
