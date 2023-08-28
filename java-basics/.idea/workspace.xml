@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="894c9081-da8e-4916-a6ee-696b31cf76d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/dto/UserUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment02/src/main/java/com/jaya/rest/JSONPlaceHolderAPI2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment02/src/main/java/com/jaya/rest/Photo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment02/src/main/java/com/jaya/rest/PhotoDownloader2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment02/src/main/java/com/jaya/rest/RestClient2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewSample/src/main/java/com/example/newsample/hello/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewSample/src/main/java/com/example/newsample/tasks/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewSample/src/main/java/com/example/newsample/tasks/TasksController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-basics2/src/main/java/com/jaya/rest/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment02/src/main/java/com/jaya/rest/TestDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment02/src/main/java/com/jaya/rest/TestDownload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blogapi/blog.db.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/../blogapi/blog.db.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blogapi/blog.db.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/../blogapi/blog.db.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blogapi/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../blogapi/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blogapi/src/main/java/com/scaler/blogapi/users/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-basics2/src/main/java/com/jaya/rest/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-basics2/src/main/java/com/jaya/rest/RestClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +37,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/scaler/Project-Module-Apr-23/java-basics2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -42,6 +55,8 @@
       <option name="presentableId" value="Default" />
       <updated>1684519423543</updated>
       <workItem from="1684519424580" duration="80000" />
+      <workItem from="1690625936010" duration="696000" />
+      <workItem from="1691489524747" duration="25000" />
     </task>
     <servers />
   </component>

@@ -4,24 +4,22 @@ import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class RestClient {
-    JSONPlaceholderAPI api;
+public class RestClient2 {
 
-    public RestClient(JSONPlaceholderAPI api) {
+    JSONPlaceHolderAPI2 api;
 
+    public RestClient2() {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://jsonplaceholder.typicode.com")
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(new OkHttpClient())
                 .build();
 
-        api = retrofit.create(JSONPlaceholderAPI.class);
-
-
-
+       api = retrofit.create(JSONPlaceHolderAPI2.class);
+       api.getPhotos();
     }
 
-    public JSONPlaceholderAPI getApi(){
+    public JSONPlaceHolderAPI2 getApi(){
         return api;
-    }
+ }
 }
